@@ -8,6 +8,7 @@ const NORMAL_BUTTON = styled.button<{ $primary?: boolean; }>`
   color: #BF4F74;
   margin: 0.5em 1em;
   padding: 0.25em 1em;
+  cursor: pointer;
 `;
 
 const PRIMARY_BUTTON = styled.button<{ $primary?: boolean; }>`
@@ -17,6 +18,7 @@ const PRIMARY_BUTTON = styled.button<{ $primary?: boolean; }>`
   color: white;
   margin: 0.5em 1em;
   padding: 0.25em 1em;
+  cursor: pointer;
 `;
 
 function Button(props) {
